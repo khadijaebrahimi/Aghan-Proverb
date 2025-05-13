@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      footer p:hover {
+        font-size: 20px;
+      }
+      h1 {
+        font-size: 45px;
+        padding: 20px 30ps;
+        margin: 0% auto;
+      }
+      form {
+        box-sizing: border-box;
+      }
+      .A p {
+        background-color: rgb(181, 236, 220);
+        height: 50px;
+        width: 300px;
+        box-shadow: 2px 4px 6px 8px;
+      }
+      .B p {
+        background-color: rgb(181, 236, 220);
+        height: 50px;
+        width: 300px;
+        box-shadow: 2px 4px 6px 8px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 300px;
+        gap: 5px;
+      }
+      .container:hover {
+        background-color: rgb(136, 241, 136);
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home page</a>
+        <a href="interactive wall.html">Interactive wall</a>
+        <a href="proverb detail section.html">Proverb Detail Section</a>
+        <a href="proverb gallary.html">Proverb Gallary</a>
+      </nav>
+      <h1>Afghan Proverbs</h1>
+    </header>
+    <section>
+      <p>
+        Afghan proverbs hold a vital place in the cultural fabric of
+        Afghanistan, serving as timeless expressions of wisdom, morality, and
+        social values. These short, often poetic sayings encapsulate practical
+        life lessons, guiding individuals in their daily interactions,
+        decision-making, and community relationships. They reflect the
+        collective experiences and historical resilience of the Afghan people,
+        preserving their traditions and cultural identity across generations.
+        Moreover, Afghan proverbs function as a means of communication that
+        fosters unity, teaches moral principles, and provides insight into the
+        societal norms and values. In a society rich with diverse ethnic groups
+        and languages, these proverbs act as a unifying thread that connects
+        people through shared understanding and cultural continuity.
+      </p>
+      <form action="form">
+        <input type="search" id="query" name="q" placeholder="search" />
+        <button>search</button>
+      </form>
+      <div class="container">
+        <div class="A">
+          <p>"A person is known by the company they keep."</p>
+          <p>(Associations reflect one’s character.)</p>
+        </div>
+        <div class="B">
+          <p>"A journey of a thousand miles begins with a single step."</p>
+          <p>(Big achievements start with small actions.)</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>📞+8801404439581</p>
+      <p>📧khadijaebrahimi2003@gmnail.com</p>
+      <a href="#">About Us</a>
+    </footer>
+  </body>
+</html>

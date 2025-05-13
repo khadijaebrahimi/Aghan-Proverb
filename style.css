@@ -1,0 +1,61 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #c2f3d6;
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+}
+header,
+footer {
+  background-image: url(https://images.pexels.com/photos/4870732/pexels-photo-4870732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  height: 150px;
+  width: 600 px;
+  color: #044b20;
+  padding: 20px 30px;
+  border-radius: 50px;
+}
+header nav {
+  display: flex;
+  justify-content: right;
+  flex-direction: wrap;
+  gap: 1.9rem;
+}
+footer nav {
+  display: flex;
+  justify-content: right;
+  flex-direction: wrap;
+  gap: 1.9rem;
+}
+a {
+  text-decoration: none;
+  size: bold;
+  border: 5px inset rgba(7, 199, 110, 0.89);
+}
+a:hover {
+  background-color: rgb(109, 248, 139);
+  color: rgb(4, 14, 7);
+}
+header h1 {
+  text-align: center;
+  color: rgb(4, 83, 37);
+}
+h1:hover {
+  font-size: 40px;
+  color: rgb(10, 231, 21);
+}
+section {
+  padding: 20px 30px;
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/29203820/pexels-photo-29203820/free-photo-of-vibrant-green-leaf-close-up-nature-photography.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+   background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  background-position: cover;
+  width: auto;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(122, 8, 8, 0.1);
+}
